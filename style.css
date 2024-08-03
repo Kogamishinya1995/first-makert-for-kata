@@ -47,12 +47,12 @@ opacity: 0px;
 }
 .page-header {
 	display: flex;
-    flex-direction: row;
+  flex-direction: row;
 	gap: 0px;
 	height: 88px;
 	opacity: 0px;
 	width: 320px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     left: 0%;
     right: 0%;

@@ -127,3 +127,12 @@ height: 40px;
   transform: rotate(-180deg); 
 }
 
+.main-container {
+  display: flex;
+  background-color: rgba(248, 248, 248, 1);
+  width: 320px;
+  height: 509px;
+  top: 88px;
+  gap: 0px;
+  opacity: 0px;
+}

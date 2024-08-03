@@ -1,3 +1,11 @@
+body {
+width: 320px;
+height: 509px;
+top: 88px;
+gap: 0px;
+opacity: 0px;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -10,9 +18,9 @@
 	flex: 1;
 }
 .cps-logo {
-	display: grid;
-	grid-area: logo;
-    width: 96.55px;
+display: grid;
+grid-area: logo;
+width: 96.55px;
 height: 50.81px;
 top: 18.59px;
 left: 72.73px;
@@ -25,26 +33,17 @@ opacity: 0px;
 .test-div {
 	background-color: red;
 }
-h1 {
-	font-family: TT Lakes;
-	font-size: 5.33vw;
-	gap: 0px;
-	height: 40px;
-	left: 16px;
-	letter-spacing: -0.6000000238418579px;
-	line-height: 40px;
-	opacity: 0px;
-	text-align: left;
-	top: 112px;
-	white-space: nowrap;
-	width: 288px;
-}
+
 .main-image {
-	gap: 0px;
-	height: 230.8px;
-	opacity: 0px;
-	top: 358.57px;
-	width: 320px;
+left: 0%;
+right: 0%;
+top: 64.66%;
+bottom: 5.86%;
+width: 320px;
+height: 176px;
+top: 386px;
+gap: 0px;
+opacity: 0px;
 }
 .page-header {
 	display: flex;
@@ -53,59 +52,92 @@ h1 {
 	height: 88px;
 	opacity: 0px;
 	width: 320px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: baseline;
-    left: 0px;
-    top: 0px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.26%;
+
+background: #FFFFFF;
+
+
+
 }
 .divider {
 	background: #EAEAEA;
 	border-radius: 1px;
     width: 2px;
     height: 32px;
-    top: 28px;
-    left: 186px;
-    gap: 0px;
-    border-radius: 1px 0px 0px 0px;
-    opacity: 0px;
+    left: 58.12%;
+    right: 41.25%;
+    top: 4.69%;
+    bottom: 89.95%;
+
+background: #EAEAEA;
+border-radius: 1px;
+
 }
 button {
 	background-color: white;
 	border-style: none;
 }
 .first-button {
-width: 40px;
+width: 40px; 
 height: 40px;
-top: 24px;
-left: 16px;
-gap: 0px;
-opacity: 0px;
+left: 5%;
+right: 82.5%;
+top: 4.02%;
+bottom: 89.28%;
+
+background: #FF3E79;
+border-radius: 20px;
 
 }
 
 .second-button {
 width: 40px;
 height: 40px;
-top: 24px;
-left: 208px;
-gap: 0px;
-opacity: 0px;
-
+left: 65%;
+right: 22.5%;
+top: 4.02%;
+bottom: 89.28%;
 }
 
 .third-button {
 width: 40px;
 height: 40px;
-top: 24px;
-left: 264px;
-gap: 0px;
-opacity: 0px;
+left: 82.5%;
+right: 5%;
+top: 4.02%;
+bottom: 89.28%;
 }
 
-
-
-/* upperMenu_mob Copy */
-
-
+.main-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .main-header h1 {
+    width: 288px;
+    height: 40px;
+    font-family: TT Lakes;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-align: left;
+  }
+  
+  .main-header img {
+    width: 4px;
+    height: 40px;
+    transform: rotate(-180deg); 
+  }
 
 

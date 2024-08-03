@@ -1,0 +1,111 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.col {
+	flex: 1;
+}
+.cps-logo {
+	display: grid;
+	grid-area: logo;
+    width: 96.55px;
+height: 50.81px;
+top: 18.59px;
+left: 72.73px;
+gap: 0px;
+border: 0.5px 0px 0px 0px;
+opacity: 0px;
+
+	
+}
+.test-div {
+	background-color: red;
+}
+h1 {
+	font-family: TT Lakes;
+	font-size: 5.33vw;
+	gap: 0px;
+	height: 40px;
+	left: 16px;
+	letter-spacing: -0.6000000238418579px;
+	line-height: 40px;
+	opacity: 0px;
+	text-align: left;
+	top: 112px;
+	white-space: nowrap;
+	width: 288px;
+}
+.main-image {
+	gap: 0px;
+	height: 230.8px;
+	opacity: 0px;
+	top: 358.57px;
+	width: 320px;
+}
+.page-header {
+	display: flex;
+    flex-direction: row;
+	gap: 0px;
+	height: 88px;
+	opacity: 0px;
+	width: 320px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    left: 0px;
+    top: 0px;
+}
+.divider {
+	background: #EAEAEA;
+	border-radius: 1px;
+    width: 2px;
+    height: 32px;
+    top: 28px;
+    left: 186px;
+    gap: 0px;
+    border-radius: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+button {
+	background-color: white;
+	border-style: none;
+}
+.first-button {
+width: 40px;
+height: 40px;
+top: 24px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.second-button {
+width: 40px;
+height: 40px;
+top: 24px;
+left: 208px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.third-button {
+width: 40px;
+height: 40px;
+top: 24px;
+left: 264px;
+gap: 0px;
+opacity: 0px;
+}
+
+
+
+/* upperMenu_mob Copy */
+
+
+
+

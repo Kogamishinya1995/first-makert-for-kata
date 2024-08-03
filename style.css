@@ -47,12 +47,12 @@ opacity: 0px;
 }
 .page-header {
 	display: flex;
-  flex-direction: row;
+    flex-direction: row;
 	gap: 0px;
 	height: 88px;
 	opacity: 0px;
 	width: 320px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     left: 0%;
     right: 0%;
@@ -85,11 +85,6 @@ button {
 .first-button {
 width: 40px; 
 height: 40px;
-left: 5%;
-right: 82.5%;
-top: 4.02%;
-bottom: 89.28%;
-
 background: #FF3E79;
 border-radius: 20px;
 
@@ -98,46 +93,37 @@ border-radius: 20px;
 .second-button {
 width: 40px;
 height: 40px;
-left: 65%;
-right: 22.5%;
-top: 4.02%;
-bottom: 89.28%;
 }
 
 .third-button {
 width: 40px;
 height: 40px;
-left: 82.5%;
-right: 5%;
-top: 4.02%;
-bottom: 89.28%;
 }
 
 .main-header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-content {
-    display: flex;
-    align-items: center;
-    gap: 8px; 
-  }
-  
-  .main-header h1 {
-    width: 288px;
-    height: 40px;
-    font-family: TT Lakes;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: -0.6px;
-    text-align: left;
-  }
-  
-  .main-header img {
-    width: 4px;
-    height: 40px;
-    transform: rotate(-180deg); 
-  }
+  display: flex;
+  align-items: center;
+}
 
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-header h1 {
+  width: 288px;
+  height: 40px;
+  font-family: TT Lakes;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  text-align: left;
+}
+
+.main-header img {
+  width: 4px;
+  height: 40px;
+  transform: rotate(-180deg); 
+}
 

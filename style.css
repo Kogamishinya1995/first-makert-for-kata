@@ -1,6 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
+  justify-content: space-between;
 }
 .row {
 	display: flex;
@@ -37,6 +44,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 	padding-bottom: 10px;
+  margin-top: 10px;
 }
 .divider {
 	background: #EAEAEA;
@@ -94,6 +102,16 @@ button {
 	background-color: rgba(248, 248, 248, 1);
 	display: flex;
 	flex-direction: column;
+  width: 100%;
+  width: 320px;
+  height: 100%;
+  top: 88px;
+  gap: 0px;
+  opacity: 0px;
+left: 0px;
+top: 88px;
+padding-bottom: 23px;
+
 }
 .list-of-services-container {
 	display: flex;

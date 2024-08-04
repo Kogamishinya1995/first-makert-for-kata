@@ -1,0 +1,125 @@
+@media screen and (max-width : 320px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .common-container-320 {
+    background-color: rgba(248, 248, 248, 1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-container-320 { 
+    background-color: white; 
+    width: 320px; 
+    height: 88px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+  } 
+  
+  .main-container-320 { 
+    background-color: green; 
+    width: 320px; 
+    height: auto; 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 320px;  
+  } 
+  
+  .first-button-320 { 
+  border: none; 
+  background-color: white; 
+  margin-left: 10px; 
+  } 
+  
+  .fist-button-img-320 { 
+    width: 40px; 
+    height: 40px; 
+    top: 24px; 
+    gap: 0px; 
+    opacity: 0px; 
+  } 
+  
+  .second-button-320,
+  .third-button-320 {
+    background-color: white;
+    border: none;
+  }
+  
+  .logo-320 { 
+    width: 96.55px;  
+    height: 50.81px; 
+  }
+  
+  .hidden-divider-320 {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width : 768px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .common-container-768 {
+    background-color: rgba(248, 248, 248, 1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-container-768 { 
+    background-color: white; 
+    width: 320gpx; 
+    height: 88px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+  } 
+  
+  .main-container-768 { 
+    background-color: green; 
+    width: 320px; 
+    height: auto; 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 320px;  
+  } 
+  
+  .first-button-768 { 
+  border: none; 
+  background-color: white; 
+  margin-left: 10px; 
+  } 
+  
+  .fist-button-img-768 { 
+    width: 40px; 
+    height: 40px; 
+    top: 24px; 
+    gap: 0px; 
+    opacity: 0px; 
+  } 
+  
+  .second-button-768,
+  .third-button-768 {
+    background-color: white;
+    border: none;
+  }
+  
+  .logo-768 { 
+    width: 96.55px;  
+    height: 50.81px; 
+  }
+  
+  .hidden-divider-768 {
+    display: none;
+  }
+
+}

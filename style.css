@@ -1,11 +1,3 @@
-body {
-width: 320px;
-height: 509px;
-top: 88px;
-gap: 0px;
-opacity: 0px;
-}
-
 .container {
 	display: flex;
 	flex-direction: column;
@@ -18,121 +10,178 @@ opacity: 0px;
 	flex: 1;
 }
 .cps-logo {
-display: grid;
-grid-area: logo;
-width: 96.55px;
-height: 50.81px;
-top: 18.59px;
-left: 72.73px;
-gap: 0px;
-border: 0.5px 0px 0px 0px;
-opacity: 0px;
-
-	
+	border: 0.5px 0px 0px 0px;
+	display: grid;
+	gap: 0px;
+	grid-area: logo;
+	height: 50.81px;
+	left: 72.73px;
+	opacity: 0px;
+	top: 18.59px;
+	width: 96.55px;
 }
-.test-div {
-	background-color: red;
-}
-
 .main-image {
-left: 0%;
-right: 0%;
-top: 64.66%;
-bottom: 5.86%;
-width: 320px;
-height: 176px;
-top: 386px;
-gap: 0px;
-opacity: 0px;
+	bottom: 5.86%;
+	gap: 0px;
+	height: 176px;
+	left: 0%;
+	opacity: 0px;
+	right: 0%;
+	top: 386px;
+	width: 320px;
 }
 .page-header {
+	align-items: baseline;
+	background: #FFFFFF;
 	display: flex;
-    flex-direction: row;
-	gap: 0px;
-	height: 88px;
-	opacity: 0px;
-	width: 320px;
-    justify-content: space-around;
-    align-items: baseline;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 85.26%;
-
-background: #FFFFFF;
-
-
-
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 10px;
 }
 .divider {
 	background: #EAEAEA;
 	border-radius: 1px;
-    width: 2px;
-    height: 32px;
-    left: 58.12%;
-    right: 41.25%;
-    top: 4.69%;
-    bottom: 89.95%;
-
-background: #EAEAEA;
-border-radius: 1px;
-
+	bottom: 89.95%;
+	height: 32px;
+	left: 58.12%;
+	right: 41.25%;
+	top: 4.69%;
+	width: 2px;
 }
 button {
 	background-color: white;
 	border-style: none;
 }
 .first-button {
-width: 40px; 
-height: 40px;
-background: #FF3E79;
-border-radius: 20px;
-
+	background: #FF3E79;
+	border-radius: 20px;
+	height: 40px;
+	width: 40px;
 }
-
 .second-button {
-width: 40px;
-height: 40px;
+	height: 40px;
+	width: 40px;
 }
-
 .third-button {
-width: 40px;
-height: 40px;
+	height: 40px;
+	width: 40px;
 }
-
 .main-header {
-  display: flex;
-  align-items: center;
+	align-items: center;
+	display: flex;
 }
-
 .header-content {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+	align-items: center;
+	display: flex;
+	gap: 8px;
 }
-
 .main-header h1 {
-  width: 288px;
-  height: 40px;
-  font-family: TT Lakes;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: -0.6px;
-  text-align: left;
+	color: rgba(126, 126, 130, 1);
+	font-family: TT Lakes;
+	font-size: 28px;
+	height: 40px;
+	letter-spacing: -0.6px;
+	line-height: 40px;
+	text-align: left;
+	width: 288px;
 }
-
 .main-header img {
-  width: 4px;
-  height: 40px;
-  transform: rotate(-180deg); 
+	height: 40px;
+	transform: rotate(-180deg);
+	width: 4px;
 }
-
 .main-container {
-  display: flex;
-  background-color: rgba(248, 248, 248, 1);
-  width: 320px;
-  height: 509px;
-  top: 88px;
-  gap: 0px;
-  opacity: 0px;
+	background-color: rgba(248, 248, 248, 1);
+	display: flex;
+	flex-direction: column;
+}
+.list-of-services-container {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	overflow-x: hidden;
+	padding: 24px;
+}
+.list-of-services-slider {
+	-webkit-overflow-scrolling: touch;
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+.list-of-services-slider::-webkit-scrollbar {
+	display: none;
+}
+.list-of-services-slider ul {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.list-of-services-slider li {
+	border-radius: 6px;
+	color: #1B1C21;
+	font-family: 'TT Lakes', sans-serif;
+	font-size: 16px;
+	letter-spacing: -0.2px;
+	line-height: 24px;
+	padding: 8px 16px;
+	white-space: nowrap;
+}
+.list-of-services-slider li:hover {
+	background-color: #FFFFFF;
+	border: 2px solid rgba(184, 255, 236, 1);
+}
+.list-of-services-slider li.active {
+	background-color: #FFFFFF;
+	border: 2px solid rgba(184, 255, 236, 1);
+}
+.mobile-hidden {
+	display: none;
+}
+.main-text {
+	font-family: TT Lakes;
+	font-size: 14px;
+	letter-spacing: 0.20000000298023224px;
+	line-height: 18px;
+	margin-left: 16px;
+	text-align: left;
+}
+.main-banner {
+	margin-left: 16px;
+}
+.read-more-button {
+	display: flex;
+}
+.read-more-container {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 16px;
+}
+.read-more-container p {
+	font-family: TT Lakes;
+	font-size: 16px;
+	gap: 0px;
+	height: 24px;
+	left: 48px;
+	letter-spacing: -0.20000000298023224px;
+	line-height: 24px;
+	margin-left: 16 px;
+	opacity: 0px;
+	text-align: left;
+	top: 346px;
+	width: 100px;
+}
+.read-more-container img {
+	gap: 0px;
+	height: 24px;
+	left: 16px;
+	opacity: 0px;
+	top: 346px;
+	width: 24px;
 }

@@ -428,7 +428,7 @@
     }
   
     .page-title--container-1120 {
-      display: flex;
+      display: inline-flex;
       flex-direction: row;
       align-items: center;
     }
@@ -437,13 +437,6 @@
     .checkstatus-button-1120 {
       border: none;
       background-color: rgba(248, 248, 248, 1);
-    }
-
-    .header-group-3-1120 {
-      display: flex;
-      flex-direction: row;
-      justify-content: end;
-      align-content: flex-end;
     }
 
     .repair-button-1120 {
@@ -553,5 +546,20 @@
       display: flex; 
       flex-direction: column;   
     } 
+
+
+
+    .header-group-3-1120 {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-content: flex-end;
+    }
     
+    .header-container-1120 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-content: flex-end;
+    }
 }

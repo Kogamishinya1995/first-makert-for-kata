@@ -1,4 +1,50 @@
 @media screen and (width: 320px) {
+  .hidden-text-320 {
+    display: none;
+  }
+  
+  .read-more-320 button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: rgba(248, 248, 248, 1);
+    margin-left: 5px;
+  }
+  
+  .read-more-320 p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: rgba(27, 28, 33, 1);
+  font-weight: 600;
+  
+  }
+
+  .text-320 {
+    font-family: TT Lakes;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 288px;
+height: 90px;
+top: 240px;
+gap: 0px;
+opacity: 0px;
+margin-left: 18px;
+  }
+  
+  .hidden-image-320-1,
+  .hidden-image-320-2 {
+    display: none;
+  }
+  
   .page-menu-320-container {
   gap: 16px; 
   padding: 24px; 
@@ -34,6 +80,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgba(248, 248, 248, 1);
   }
   
   .common-container-320 {

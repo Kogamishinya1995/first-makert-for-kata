@@ -1,4 +1,13 @@
-@media screen and (width: 320px) {
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .text-field-container-320 {
+    padding-right: 10px;
+  }
+
+
+  .image-field-320 .active-image-320 {
+    width: 100%;
+  }
+  
   .hidden-text-320-1 {
     display: none;
   }
@@ -21,27 +30,25 @@
     flex-direction: row;
     align-items: center;
     font-family: TT Lakes;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.20000000298023224px;
-  text-align: left;
-  color: rgba(27, 28, 33, 1);
-  font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(27, 28, 33, 1);
+    font-weight: 600;
   
   }
 
   .text-320 {
     font-family: TT Lakes;
-font-size: 14px;
-line-height: 18px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-width: 288px;
-height: 90px;
-top: 240px;
-gap: 0px;
-opacity: 0px;
-margin-left: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    top: 240px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 18px;
   }
   
   .hidden-image-320-1,
@@ -81,7 +88,6 @@ margin-left: 18px;
 }
   
   html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     background-color: rgba(248, 248, 248, 1);
@@ -91,25 +97,24 @@ margin-left: 18px;
     background-color: rgba(248, 248, 248, 1);
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
   }
 
   .header-container-320 { 
     background-color: white; 
-    width: 320px; 
-    height: 88px; 
     display: flex; 
     flex-direction: row; 
     align-items: center; 
     justify-content: space-between;
     border-bottom: 1px solid rgba(217, 255, 245, 1);
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   } 
   
   .main-container-320 { 
-    width: 320px; 
-    height: auto; 
     display: flex; 
     flex-direction: column; 
-    max-width: 320px;  
   } 
   
   .burger-button-320 { 
@@ -182,7 +187,7 @@ margin-left: 18px;
   }
 }
 
-@media screen and (width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1119px) {
   .text-field-768 {
     margin-left: 20px;
     margin-right: 10px;
@@ -288,21 +293,22 @@ margin-left: 18px;
 
   .header-container-768 { 
     background-color: white; 
-    width: 768px; 
-    height: 88px; 
+    width: 100%;
+    height: 100%;
     display: flex; 
     flex-direction: row; 
     align-items: center; 
     justify-content: space-between;
     border-bottom: 1px solid rgba(217, 255, 245, 1);
+    padding-top: 20px;
+    padding-bottom: 10px;
   } 
   
   .main-container-768 {
-    width: 320px; 
+    width: 100%; 
     height: auto; 
     display: flex; 
-    flex-direction: column; 
-    max-width: 320px;  
+    flex-direction: column;   
   } 
   
   .burger-button-768 { 
@@ -390,6 +396,7 @@ margin-left: 18px;
     height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
   
   .hidden-group-1120 {

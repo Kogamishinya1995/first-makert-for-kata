@@ -1,4 +1,8 @@
 @media screen and (width: 320px) {
+  .hidden-text-320-1 {
+    display: none;
+  }
+  
   .hidden-text-320 {
     display: none;
   }
@@ -179,6 +183,64 @@ margin-left: 18px;
 }
 
 @media screen and (width: 768px) {
+  .text-field-768 {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  
+  .image-field-320 .active-image-768 {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 360px;
+  height: 270px;
+  }
+  
+  .text-768 {
+    font-family: TT Lakes;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  }
+
+  .text-field-container-768 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .read-more-768 button {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: rgba(248, 248, 248, 1);
+    margin-left: 5px;
+    align-items: center;
+  }
+  
+  .read-more-768 p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: rgba(27, 28, 33, 1);
+  font-weight: 600;
+  
+  }
+  
+  .hidden-text-768 {
+    display: none;
+  }
+  
+  .hidden-image-768-1,
+  .hidden-image-768-2 {
+    display: none;
+  }
+  
   .page-menu-768-container {
     gap: 16px; 
     padding: 24px; 
@@ -215,6 +277,7 @@ margin-left: 18px;
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgba(248, 248, 248, 1);
   }
   
   .common-container-768 {

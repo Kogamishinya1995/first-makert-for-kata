@@ -1,7 +1,7 @@
 @media screen and (min-width: 319px) and (max-width: 767px) {
 
   .image-field-320 .active-image-320 {
-    width: 102%;
+    width: 100%;
     object-fit: cover;
   }
   
@@ -428,15 +428,17 @@
     }
   
     .page-title--container-1120 {
-      display: inline-flex;
+      display: flex;
       flex-direction: row;
       align-items: center;
+      margin-top: 27px;
     }
 
     .repair-button-1120,
     .checkstatus-button-1120 {
       border: none;
       background-color: rgba(248, 248, 248, 1);
+      padding-left: 10px;
     }
 
     .repair-button-1120 {
@@ -518,7 +520,8 @@
     width: 95%;
     height: 100%;
     object-fit: cover;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -554,6 +557,10 @@
       flex-direction: row;
       justify-content: end;
       align-content: flex-end;
+      position: absolute;
+      top: 10px; 
+      right: 10px;
+      margin-top: 30px;
     }
     
     .header-container-1120 {
@@ -561,5 +568,19 @@
       flex-direction: column;
       justify-content: flex-end;
       align-content: flex-end;
+    }
+
+    .text-repair-1120,
+    .text-checkstatus-1120 {
+      font-family: TT Lakes;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.20000000298023224px;
+    }
+
+    .repair-button-img-1120,
+    .checkstatus-button-img-1120 {
+      padding-left: 10px;
+      padding-top: 5px;
     }
 }

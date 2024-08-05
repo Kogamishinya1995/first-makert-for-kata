@@ -431,7 +431,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-top: 27px;
+      margin-top: 2px;
     }
 
     .repair-button-1120,
@@ -520,8 +520,7 @@
     width: 95%;
     height: 100%;
     object-fit: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -578,7 +577,11 @@
       letter-spacing: -0.20000000298023224px;
     }
 
-    .repair-button-img-1120,
+    .repair-button-img-1120 {
+      padding-left: 10px;
+      padding-top: 5px;
+    }
+
     .checkstatus-button-img-1120 {
       padding-left: 10px;
       padding-top: 5px;

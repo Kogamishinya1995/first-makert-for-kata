@@ -1,3 +1,7 @@
+	.header__group--2 button {
+		display: none;
+	}
+	
 	.header__group--2 + img {
 	display: none;
 	}
@@ -133,7 +137,7 @@
 	.header__group--1 img:nth-child(2) {
 		display: none;
 	}
-	.button--hidden {
+	.header__group--2 butt {
 		display: none;
 	}
 	.hidden-text {
@@ -157,7 +161,7 @@
 		display: flex;
 		flex-direction: row;
 	}
-	.page-title__container-h {
+	.page-title__container h1 {
 		font-family: TT Lakes;
 		font-size: 28px;
 		letter-spacing: -0.6000000238418579px;
@@ -165,8 +169,8 @@
 		padding-left: 16px;
 		text-align: left;
 	}
-	.hidden-text--repair,
-  .hidden-text--checkstatus {
+	.button--repair p,
+	.button--checkstatus p {
 		display: none;
 	}
 
@@ -183,7 +187,7 @@
 		display: block;
 	}
 
-	.button--hidden {
+	.header__group--2 button {
 		display: flex;
 	  }
 	
@@ -388,8 +392,8 @@
 		display: flex;
 		flex-direction: row;
 	}
-	.hidden-text--repair,
-  .hidden-text--checkstatus {
+	.button--repair p,
+  .button--checkstatus p {
 		display: none;
 	}
 
@@ -428,7 +432,7 @@
 	}
 
 	
-	.page-title__container-h {
+	.page-title__container h1 {
 		font-family: TT Lakes;
 		font-size: 28px;
 		letter-spacing: -0.6000000238418579px;
@@ -440,7 +444,7 @@
 		align-items: center;
 		display: flex;
 		flex-direction: row;
-		margin-top: 19px;
+		margin-top: 16px;
 	}
 	.button--repair,
     .button--checkstatus {
@@ -559,18 +563,18 @@
 		flex-direction: column;
 		justify-content: flex-end;
 	}
-	.text--repair,
-    .text--checkstatus {
+	.button--repair p,
+    .button--checkstatus p {
 		font-family: TT Lakes;
 		font-size: 16px;
 		letter-spacing: -0.20000000298023224px;
 		line-height: 24px;
 	}
-	.button--repair-img {
+	.button--repair img {
 		padding-left: 10px;
 		padding-top: 5px;
 	}
-	.button--checkstatus-img {
+	.button--checkstatus img {
 		padding-left: 10px;
 		padding-top: 5px;
 	}

@@ -61,7 +61,8 @@ body {
 	letter-spacing: -0.20000000298023224px;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 35px;
+	padding-left: 30px;
+	padding-bottom: 20px;
 }
 .aside__footer__mail {
 	font-family: TT Lakes;
@@ -97,13 +98,21 @@ body {
 	border-radius: 6px 6px 6px 6px;
 }
 
-.aside__header-button:hover,
+.aside__header-button:hover, 
+.aside__footer__buttons-button:hover {
+  background-color: white; 
+  border: 2px solid rgba(184, 255, 236, 1); 
+  border-radius: 6px 6px 6px 6px; 
+  filter: hue-rotate(150deg);
+  transition-duration: 1s;
+}
+
 .aside__menu-button:hover,
-.aside__footer__buttons-button:hover,
 .aside__footer__languages-button:hover {
-	background-color: white;
+	background-color: white; 
 	border: 2px solid rgba(184, 255, 236, 1);
-	border-radius: 6px 6px 6px 6px;
+	transition-duration: 1s;
+	filter: opacity(50%); 
 }
 
 .aside__header__logo {

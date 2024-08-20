@@ -101,8 +101,6 @@ body {
 .aside__header-button:hover, 
 .aside__footer__buttons-button:hover {
   background-color: white; 
-  border: 2px solid rgba(184, 255, 236, 1); 
-  border-radius: 6px 6px 6px 6px; 
   filter: hue-rotate(150deg);
   transition-duration: 1s;
 }

@@ -200,6 +200,7 @@
 	.header__container {
 		display: flex;
 		flex-direction: row;
+		
 	}
 	
 	.header__group--1 img:nth-child(2) {

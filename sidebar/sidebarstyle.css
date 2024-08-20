@@ -16,10 +16,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	padding-left: 30px;
-}
-.aside__header--search {
-	margin-left: 70px;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 
 .aside__menu {
@@ -48,10 +46,6 @@ body {
 	color: inherit;
 	text-decoration: none;
 }
-.aside button {
-	background-color: inherit;
-	border: none;
-}
 .aside__footer {
 	display: flex;
 	flex-direction: column;
@@ -59,7 +53,7 @@ body {
 .aside__footer__buttons {
 	display: flex;
 	flex-direction: row;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 .aside__footer__languages {
 	font-family: TT Lakes;
@@ -67,7 +61,7 @@ body {
 	letter-spacing: -0.20000000298023224px;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 30px;
+	padding-left: 35px;
 }
 .aside__footer__mail {
 	font-family: TT Lakes;
@@ -75,7 +69,7 @@ body {
 	letter-spacing: -0.20000000298023224px;
 	line-height: 24px;
 	text-align: left;
-	padding-left: 30px;
+	padding-left: 35px;
 }
 .aside__footer__number {
 	font-family: TT Lakes;
@@ -84,7 +78,7 @@ body {
 	letter-spacing: -0.6000000238418579px;
 	line-height: 32px;
 	text-align: left;
-	padding-left: 30px;
+	padding-left: 35px;
 }
 .aside__main {
 	display: flex;
@@ -92,4 +86,27 @@ body {
 	height: 100vh;
 	justify-content: space-between;
 	width: 320px;
+}
+
+.aside__header-button,
+.aside__menu-button,
+.aside__footer__buttons-button,
+.aside__footer__languages-button {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.aside__header-button:hover,
+.aside__menu-button:hover,
+.aside__footer__buttons-button:hover,
+.aside__footer__languages-button:hover {
+	background-color: white;
+	border: 2px solid rgba(184, 255, 236, 1);
+	border-radius: 6px 6px 6px 6px;
+}
+
+.aside__header__logo {
+	padding-left: 10px;
+	padding-right: 10px;
 }

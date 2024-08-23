@@ -2,6 +2,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background: rgba(255, 255, 255, 1);
 }
 .aside {
 	display: flex;
@@ -10,8 +11,9 @@ body {
 	left: 0;
 	position: fixed;
 	width: 320px;
+	box-shadow: 5px 0 40px rgba(0, 0, 0, 0.5);
 }
-.aside__header {
+.header {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
@@ -20,7 +22,11 @@ body {
 	padding-top: 15px;
 }
 
-.aside__menu {
+.header-buttons {
+	padding-right: 20px;
+}
+
+.menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -28,10 +34,10 @@ body {
 
 }
 
-.aside__menu-item {
+.menu__item {
 	list-style: none;
 }
-.aside__menu-button {
+.menu__link {
 	color: inherit;
 	font-family: TT Lakes;
 	font-size: 16px;
@@ -41,47 +47,71 @@ body {
 	text-align: left;
 	text-decoration: none;
 }
-.aside__menu-link:hover, 
-.aside__menu-link:active {
-	color: inherit;
-	text-decoration: none;
+.menu__link:after,
+.menu__link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(184, 255, 236, 1);
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
 }
-.aside__footer {
+
+.menu__link:hover::after,
+.menu__link:active::after {
+  opacity: 1;
+}
+
+.menu__link:hover {
+opacity: 65%;
+transition: 0.5s;
+}
+
+
+
+.footer {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 }
-.aside__footer__buttons {
+.footer-buttons__list {
 	display: flex;
 	flex-direction: row;
 	padding-left: 30px;
+	list-style: none;
 }
-.aside__footer__languages {
+.languages-buttons__list {
 	font-family: TT Lakes;
 	font-size: 16px;
 	letter-spacing: -0.20000000298023224px;
 	line-height: 24px;
 	text-align: left;
 	padding-left: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
-.aside__footer__mail {
+.address__mail {
 	font-family: TT Lakes;
 	font-size: 16px;
-	letter-spacing: -0.20000000298023224px;
-	line-height: 24px;
 	text-align: left;
 	padding-left: 35px;
+	margin: 0;
+	padding-bottom: 15px;
+	color: inherit;
+  	text-decoration: none;
 }
-.aside__footer__number {
+.address__number {
 	font-family: TT Lakes;
 	font-size: 24px;
 	font-weight: 700;
-	letter-spacing: -0.6000000238418579px;
-	line-height: 32px;
 	text-align: left;
 	padding-left: 35px;
+	margin: 0;
+	padding-bottom: 15px;
+	color: inherit;
+  	text-decoration: none;
 }
-.aside__main {
+.main {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -89,31 +119,35 @@ body {
 	width: 320px;
 }
 
-.aside__header-button,
-.aside__menu-button,
-.aside__footer__buttons-button,
-.aside__footer__languages-button {
+.header-buttons__button,
+.footer-buttons__button,
+.languages-buttons__button {
 	background-color: white;
 	border: 2px solid white;
 	border-radius: 6px 6px 6px 6px;
+	cursor: pointer;
 }
 
-.aside__header-button:hover, 
-.aside__footer__buttons-button:hover {
+.header-buttons__button:hover, 
+.footer-buttons__button:hover {
   background-color: white; 
   filter: hue-rotate(150deg);
   transition-duration: 1s;
 }
 
-.aside__menu-button:hover,
-.aside__footer__languages-button:hover {
+.languages-buttons__button:hover {
 	background-color: white; 
 	border: 2px solid rgba(184, 255, 236, 1);
 	transition-duration: 1s;
 	filter: opacity(50%); 
 }
 
-.aside__header__logo {
+.header-buttons__logo {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
 }

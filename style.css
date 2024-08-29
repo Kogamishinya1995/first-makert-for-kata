@@ -96,3 +96,34 @@ body {
 	width: 50px;
 	height: 50px;
 }
+
+.show-all-button {
+	font-family: TT Lakes;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.20000000298023224px;
+	text-align: left;
+	border: none;
+	background-color: #F8F8F8;
+	position: relative;
+	left: 60px;
+
+	@media screen and (max-width: 767px) { 
+		display: none;
+	};
+	}
+
+
+.show-all-button::before  {
+	content:""; 
+	width: 16px;
+	height: 16px;
+	border-bottom: 2px solid #41F6D7;
+	border-left: 2px solid #41F6D7;
+	left: -17px;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%) rotate(316deg) scale(0.7);
+  } 
+

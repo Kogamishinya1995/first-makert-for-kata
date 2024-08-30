@@ -77,14 +77,21 @@ body {
 	border-radius: 6px;
 	}
 
-	.show-all-button::before {
-		color: #41F6D7;
-		content: "❯❯";
-		rotate: 90deg;
-		margin-right: 5px;
-	}
-	
+	.show-all-button::before { 
+		color: #41F6D7; 
+		content: "❯❯"; 
+		rotate: 90deg;  
+		margin-right: 5px; 
+		transition: transform 0.1s ease;  
+	  } 
 
+	
+	  
+	  .show-all-button.show-hidden::before {
+		transform: rotate(180deg);
+	  }
+	  
+	
 @media screen and (min-width: 768px) {
 	
 	.menu {
@@ -98,13 +105,6 @@ body {
 		width: 200px;
 		height: 50px;
 		margin: 10px 5px;
-	}
-
-	.show-all-container {
-		display: flex;
-		flex-direction: start;
-		justify-content: center;
-		border: 2px solid red;
 	}
 }
 

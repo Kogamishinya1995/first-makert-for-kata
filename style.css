@@ -26,12 +26,12 @@ body {
 	min-height: 50px;
 	padding: 10px;
 }
-.swiper-wrapper__logo {
+.swiper-slide__logo {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
-.swiper-wrapper__button {
+.swiper-slide__button {
 	height: 35px;
 	position: absolute;
 	right: 20px;

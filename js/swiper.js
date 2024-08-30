@@ -8,7 +8,7 @@ function swiperEnabled() {
               dynamicBullets: true, 
           }, 
           spaceBetween: 30, 
-          loop: true, 
+          loop: false, 
           autoHeight: true, 
           width: 200, 
           centerInsufficientSlides: true, 

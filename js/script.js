@@ -1,24 +1,24 @@
-const elements = document.querySelectorAll('.menu__item'); 
-const showAllButton = document.querySelector('.show-all-button'); 
-const screenWidth = window.innerWidth; 
+const elements = document.querySelectorAll('.menu__item');  
+const showAllButton = document.querySelector('.show-all-button');  
 
+let maximumVisibleElements;  
 
-let maximumVisibleElements; 
-    if (screenWidth < 1119 ) { 
-        maximumVisibleElements = 6;  
-    } 
-    else {  
-        maximumVisibleElements = 8;  
-    } 
+function updateVisibleElements() {
+  const screenWidth = window.innerWidth;  
+  maximumVisibleElements = screenWidth < 1119 ? 6 : 8;
+  hideElements(); 
+}
 
-function hideElements() { 
-    for (let i = 0; i < elements.length; i++) { 
-        if (i >= maximumVisibleElements) { 
-            elements[i].classList.add('hidden'); 
-        } 
-    } 
-    showAllButton.textContent = 'Показать все'; 
-}; 
+function hideElements() {  
+  for (let i = 0; i < elements.length; i++) {  
+    if (i >= maximumVisibleElements) {  
+      elements[i].classList.add('hidden');  
+    } else {
+      elements[i].classList.remove('hidden');
+    }  
+  }  
+  showAllButton.textContent = 'Показать все';  
+};  
 
 function showElements() {
     if (showAllButton.textContent === 'Показать все') {
@@ -40,5 +40,7 @@ function showElements() {
   
 
 
-showAllButton.addEventListener('click', showElements); 
-hideElements(); 
+  updateVisibleElements();
+  window.addEventListener('resize', updateVisibleElements); 
+  
+  showAllButton.addEventListener('click', showElements); 

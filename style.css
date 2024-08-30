@@ -48,56 +48,63 @@ body {
 	text-align: left;
 }
 
+
+
+.hidden {
+	display: none;
+}
+
 .show-all-button {
+	display: flex;
 	font-family: TT Lakes;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 24px;
-	letter-spacing: -0.20000000298023224px;
-	text-align: left;
-	border: none;
 	background-color: #F8F8F8;
-	position: relative;
-	left: 60px;
-	bottom: 60px;
+	padding: 20px;
+	border: 2px solid #F8F8F8;
+	margin-left: 40px;
+
 
 	@media screen and (max-width: 767px) { 
 		display: none;
 	};
 	}
 
+	.show-all-button:hover {
+	background-color: white;
+	border: 2px solid #D9FFF5;
+	border-radius: 6px;
+	}
 
-.show-all-button::before  {
-	content:""; 
-	width: 16px;
-	height: 16px;
-	border-bottom: 2px solid #41F6D7;
-	border-left: 2px solid #41F6D7;
-	left: -17px;
-	position: absolute;
-	top: 40%;
-	transform: translateY(-50%) rotate(316deg) scale(0.7);
-  } 
-
-.hidden {
-	display: none;
-}
-
-@media screen and (min-width: 768px) {
-	.menu {
-		display: flex !important;
-		flex-direction: row;
-		flex-wrap: wrap;
-		height: 500px !important; 
+	.show-all-button::before {
+		color: #41F6D7;
+		content: "❯❯";
+		rotate: 90deg;
+		margin-right: 5px;
 	}
 	
-	.menu-container {
-		height: 300px;
-	} 
+
+@media screen and (min-width: 768px) {
+	
+	.menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
 
 	.menu__item {
-		padding-left: 5px;
-		padding-bottom: 10px;
+		width: 200px;
+		height: 50px;
+		margin: 10px 5px;
+	}
+
+	.show-all-container {
+		display: flex;
+		flex-direction: start;
+		justify-content: center;
+		border: 2px solid red;
 	}
 }
 

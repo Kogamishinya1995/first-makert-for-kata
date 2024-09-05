@@ -7,10 +7,88 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title></title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <!-- <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" /> -->
+    <div class="common-container">
+      <header class="header">
+          <button class="burger-button">
+            <img src="./img/burger.png" alt="бургер">
+          </button>
+          <img class="logo" src="./img/group.png" alt="логотип">    
+          <div class="service-btn">
+          <button class="service-btn__call">
+            <img src="./img/call.png" alt="иконка вызова">
+          </button>
+          <button class="service-btn__chat">
+            <img src="./img/chat.png" alt="иконка чата с модератором">
+          </button>
+          <button class="service-btn__profile">
+            <img src="./img/profile.png" alt="иконка профиля">
+          </button>
+          </div>
+          <div class="application-btn">
+          <button class="application-btn__repair">
+            <p>Оставить заявку</p>
+            <img src="./img/repair.png" alt="иконка кнопки заявки">
+          </button>
+          <button class="application-btn__checkstatus">
+            <p>Статус ремонта</p>
+            <img src="./img/checkstatus.png" alt="иконка кнопки статуса ремонта">
+          </button>
+          </div>
+      </header>
+      <main>
+        <div class="main__container">
+          <div class="page-title__container">
+            <img src="images\icons\highlight.png" alt="хайлайтер">
+            <h1>Услуги и сервисы</h1>
+          </div>
+          <div class="page-menu__container">
+            <nav>
+            <ul>
+              <li>
+                <a href="##">Рекомендуемые бренды</a>
+              </li>
+              <li>
+                <a href="##">Ремонтируемые устройства</a>
+              </li>
+              <li>
+                <a href="##">Цены на услуги</a>
+              </li>
+              <li>
+                <a href="##">Адреса сервисных центров</a>
+              </li>
+              <li>
+                <a href="##">Специальные цены</a>
+              </li>
+              <li>
+                <a href="##">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+          <div class="text-field__container">
+            <div class="text-field">
+              <div class="text">
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+            </div>
+              <div class="read-more"><button>
+                <img src="images\icons\expand.png" alt="читать далее кнопка">
+                <p>Читать далее</p>
+              </button>
+            </div>
+            </div>
+            <div class="image-field">
+              <img src="images\pictures\image320.png" alt="картинка-320">
+              <img src="images\pictures\images768.png" alt="картинка-768">
+              <img src="images\pictures\images1120.png" alt="картинка-большая">
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

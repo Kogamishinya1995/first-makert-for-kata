@@ -1,0 +1,10 @@
+.burger-button {
+        background-color: white;
+		border: 2px solid white;
+		margin-left: 10px;
+        &:active {
+            background-color: white;
+            border: 2px solid rgba(184, 255, 236, 1);
+            border-radius: 6px 6px 6px 6px;
+        }
+}

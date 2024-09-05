@@ -1,3 +1,10 @@
+@import '~normalize.css/normalize.css';
+@import '../fonts/stylesheet-fonts.css';
+@import 'common-container.scss';
+@import 'header.scss';
+@import 'burger-button.scss';
+
+
 $bgColor: #24292e;
 $text: #fff;
 
@@ -9,9 +16,7 @@ $text: #fff;
 }
 
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
 }
+

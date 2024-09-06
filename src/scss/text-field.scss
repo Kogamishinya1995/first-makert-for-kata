@@ -1,0 +1,38 @@
+.text-field {
+  padding: 20px;
+  .text-field__text {
+    font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    max-height: 93px;
+    overflow: hidden;
+  }
+}
+
+.text-field__button {
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 600;
+  border: none;
+  background: #F8F8F8;
+  position: relative;
+  top: -20px;
+}
+
+@media (min-width: 767px) {
+  .text-field {
+    display: flex;
+    flex-direction: column;
+    .text-field__text {
+      font-size: 20px;
+      max-height: 145px;
+    }
+  }
+ 
+}
+

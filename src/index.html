@@ -63,22 +63,19 @@
               </li>
             </ul>
           </nav>
-          <div class="text-field__container">
-            <div class="text-field">
-              <div class="text">
-                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+          <div class="company-info">
+              <div class="text-field">
+                <p class="text-field__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
               Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-            </div>
-              <div class="read-more"><button>
-                <img src="images\icons\expand.png" alt="читать далее кнопка">
+              <button class="text-field__button">
                 <p>Читать далее</p>
               </button>
             </div>
-            </div>
-            <div class="image-field">
-              <img src="images\pictures\image320.png" alt="картинка-320">
-              <img src="images\pictures\images768.png" alt="картинка-768">
-              <img src="images\pictures\images1120.png" alt="картинка-большая">
+            <picture class="company-info__picture">
+              <source media="(min-width: 1200px)" srcset=".\img\images1120.png">
+              <source media="(min-width: 768px)" srcset=".\img\images768.png">
+              <img src="./img/image320.png" alt="Описание картинки">
+            </picture>
             </div>
           </div>
       </main>

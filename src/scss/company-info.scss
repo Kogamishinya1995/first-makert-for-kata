@@ -1,0 +1,18 @@
+.company-info {
+  display: flex;
+	flex-direction: column;
+}
+
+
+
+@media (min-width: 767px) {
+  .company-info {
+  display: flex;
+  flex-direction: row;
+  }
+
+  .company-info__picture {
+    position: relative;
+    top: 40px;
+  }
+} 

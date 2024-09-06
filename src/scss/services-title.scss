@@ -1,0 +1,19 @@
+.services-title {
+  font-family: TT Lakes;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  position: relative;
+  left: 30px;
+  &::before {
+    content: '';
+    background-color: #41F6D7;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    left: -30px;
+    border-radius: 0 40% 40% 0;
+    top: 4px;
+  }
+}

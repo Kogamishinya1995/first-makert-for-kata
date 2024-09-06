@@ -6,10 +6,12 @@
 @import 'service-btn.scss';
 @import 'application-btn.scss';
 @import 'logo.scss';
+@import 'main.scss';
+@import 'services-title.scss';
 
 
-$bgColor: #24292e;
-$text: #fff;
+// $bgColor: #24292e;
+// $text: #fff;
 
 @font-face {
   font-family: 'Comic';
@@ -21,5 +23,6 @@ $text: #fff;
 body {
   padding: 0;
   margin: 0;
+  background-color: #F8F8F8;
 }
 

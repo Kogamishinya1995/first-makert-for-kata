@@ -1,0 +1,13 @@
+@media (min-width: 767px) {
+  .logo {
+   position: relative;
+   right: 60px;
+  }
+}
+
+
+@media (min-width: 1119px) {
+  .logo {
+    display: none;
+  }
+}

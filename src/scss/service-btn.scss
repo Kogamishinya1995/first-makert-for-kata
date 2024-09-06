@@ -1,0 +1,28 @@
+.service-btn {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .service-btn {
+        display: flex;
+        position: relative;
+        left: 60px;
+    }
+
+    .service-btn__call,
+    .service-btn__chat,
+    .service-btn__profile {
+        background-color: white;
+        border: 2px solid white;
+        &:hover {
+            background-color: white;
+            border: 2px solid #B8FFEC;
+        }
+    }
+}
+
+@media (min-width: 1119px) {
+    .service-btn {
+        display: none;
+    }
+}

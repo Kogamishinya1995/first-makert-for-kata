@@ -1,0 +1,62 @@
+
+$primary-bg-color: white;
+$second-bg-color: #F8F8F8;
+
+
+.application-btn {
+    border: none;
+    background-color: white;
+    p {
+        display: none;
+    }
+}
+
+.application-btn__repair {
+    border: none;
+    background-color: $primary-bg-color;
+}
+
+.application-btn__checkstatus {
+    border: none;
+    background-color: $primary-bg-color;
+}
+
+@media (min-width: 1119px) {
+    .application-btn {
+        display: flex;
+        flex-direction: row;
+        background-color: $second-bg-color;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        p {
+            display: flex;
+            font-family: TT Lakes;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.20000000298023224px;
+            text-align: right;
+
+        }
+    }
+
+    .application-btn__repair {
+        border: none;
+        display: flex;
+        flex-direction: row;
+        background-color: $second-bg-color;
+        img {
+            padding-left: 15px;
+        }
+    }
+    
+    .application-btn__checkstatus {
+        border: none;
+        background-color: $second-bg-color;
+        display: flex;
+        flex-direction: row;
+        img {
+            padding-left: 15px;
+        }
+    }
+}

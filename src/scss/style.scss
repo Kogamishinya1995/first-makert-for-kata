@@ -8,6 +8,8 @@
 @import 'logo.scss';
 @import 'main.scss';
 @import 'services-title.scss';
+@import 'main-menu.scss';
+@import 'main-menu__item.scss';
 
 
 // $bgColor: #24292e;
@@ -24,5 +26,5 @@ body {
   padding: 0;
   margin: 0;
   background-color: #F8F8F8;
+  box-sizing: border-box;
 }
-

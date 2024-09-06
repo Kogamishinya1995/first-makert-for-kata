@@ -1,0 +1,18 @@
+.main-menu__item {
+  border: 2px solid #F8F8F8;
+  a {
+    color: rgba(126, 126, 130, 1);
+  font-family: TT Lakes;
+  font-size: 16px;
+  letter-spacing: -0.20000000298023224px;
+  line-height: 24px;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-scrollbar { display: none; }
+  }
+  &:hover {
+    background-color: white;
+		border: 2px solid rgba(184, 255, 236, 1);
+		border-radius: 6px 6px 6px 6px;
+  }
+}

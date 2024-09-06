@@ -1,10 +1,20 @@
-@media (min-width: 767px) {
-  .logo {
-   position: relative;
-   right: 60px;
+.logo {
+  display: block;
+  position: relative;
+  right: 5px;
+
+  &::after {
+    content: "контент";
+   
   }
 }
 
+@media (min-width: 767px) {
+  .logo {
+    position: relative;
+    right: 10%;
+  }
+}
 
 @media (min-width: 1119px) {
   .logo {

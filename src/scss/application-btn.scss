@@ -2,12 +2,23 @@
 $primary-bg-color: white;
 $second-bg-color: #F8F8F8;
 
-
+@media (max-width: 1119px) {
+    
 .application-btn {
     border: none;
     background-color: white;
+    position: relative;
     p {
         display: none;
+    }
+    &::before {
+        content: ' ';
+        background: #EAEAEA;
+        position: absolute;
+        height: 40px;
+        width: 2px;
+        left: -15px;
+        top: 5px;
     }
 }
 
@@ -19,6 +30,36 @@ $second-bg-color: #F8F8F8;
 .application-btn__checkstatus {
     border: none;
     background-color: $primary-bg-color;
+}
+
+.application-btn__repair,
+.application-btn__checkstatus {
+    border: 2px solid white;
+    &:hover {
+        background-color: white;
+        border: 2px solid rgba(184, 255, 236, 1);
+        border-radius: 6px 6px 6px 6px;
+    }
+}
+
+@media (min-width: 767px) {
+    .application-btn {
+        position: relative;
+        p {
+            display: none;
+        }
+        &::before {
+            content: ' ';
+            background: #EAEAEA;
+            position: absolute;
+            height: 40px;
+            width: 2px;
+            left: -30px;
+            top: 5px;
+        }
+    }
+}
+
 }
 
 @media (min-width: 1119px) {
@@ -36,7 +77,9 @@ $second-bg-color: #F8F8F8;
             line-height: 24px;
             letter-spacing: -0.20000000298023224px;
             text-align: right;
-
+        }
+        img {
+            margin-top: 5px;
         }
     }
 
@@ -45,6 +88,8 @@ $second-bg-color: #F8F8F8;
         display: flex;
         flex-direction: row;
         background-color: $second-bg-color;
+        border: 2px solid #F8F8F8;
+
         img {
             padding-left: 15px;
         }
@@ -55,6 +100,7 @@ $second-bg-color: #F8F8F8;
         background-color: $second-bg-color;
         display: flex;
         flex-direction: row;
+        border: 2px solid #F8F8F8;
         img {
             padding-left: 15px;
         }

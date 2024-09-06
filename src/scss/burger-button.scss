@@ -9,6 +9,21 @@
         }
 }
 
+@media (min-width: 767px) {
+    .burger-button {
+     position: relative;
+        &::after {
+            content: " ";
+            background: #EAEAEA;;
+            width: 2px;
+            height: 40px;
+            right: -20px;
+            position: absolute;
+            top: 5px;
+     }
+    }
+}
+
 @media (min-width: 1119px) {
     .burger-button {
         display: none;

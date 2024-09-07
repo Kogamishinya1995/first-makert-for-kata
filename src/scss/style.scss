@@ -12,6 +12,8 @@
 @import 'main-menu__item.scss';
 @import 'company-info.scss';
 @import 'text-field.scss';
+@import 'brand-section-header';
+@import 'brand-section-title';
 
 
 // $bgColor: #24292e;
@@ -29,4 +31,6 @@ body {
   margin: 0;
   background-color: #F8F8F8;
   box-sizing: border-box;
+  height: 100vh;
+
 }

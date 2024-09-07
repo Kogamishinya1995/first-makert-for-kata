@@ -6,8 +6,6 @@
     line-height: 18px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
-    max-height: 93px;
-    overflow: hidden;
   }
 }
 
@@ -20,9 +18,40 @@
   font-weight: 600;
   border: none;
   background: #F8F8F8;
-  position: relative;
-  top: -20px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #F8F8F8;
+  width: 140px;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
 }
+
+
+.text-field__button:hover {
+	background-color: white;
+	border: 2px solid #D9FFF5;
+	border-radius: 6px;
+}
+
+.text-field__button::before {
+	color: #41F6D7;
+	content: "❯❯";
+	margin-right: 5px;
+	rotate: 90deg;
+	transition: transform 0.1s ease;
+  top: 5px;
+}
+
+.text-field__button.text-field__button--active::before {
+	transform: rotate(180deg);
+}
+
+.text-field__text--hidden {
+  max-height: 93px;
+  overflow: hidden;
+} 
 
 @media (min-width: 767px) {
   .text-field {
@@ -30,9 +59,23 @@
     flex-direction: column;
     .text-field__text {
       font-size: 20px;
-      max-height: 145px;
     }
   }
+
+  .text-field__button {
+    height: auto;
+    width: 150px;
+  }
  
+  .text-field__text--hidden {
+    max-height: 145px;
+    overflow: hidden;
+  } 
 }
 
+@media (min-width: 1366px) {
+  .text-field__text--hidden {
+    max-height: 144px;
+    overflow: hidden;
+  } 
+}

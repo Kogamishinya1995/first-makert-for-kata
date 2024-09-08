@@ -1,7 +1,7 @@
-export default function swiperEnabled() { 
+export default function swiper2Enabled() { 
   const screenWidth = window.innerWidth; 
   if (screenWidth < 767) { 
-      const swiperInstance = new Swiper('.swiper', { 
+      const swiperInstance2 = new Swiper('.swiper-2', { 
           pagination: { 
               el: '.swiper-pagination', 
               clickable: true, 
@@ -21,14 +21,14 @@ export default function swiperEnabled() {
       
       
 
-      swiperEnabled.swiperInstance = swiperInstance; 
+      swiper2Enabled.swiperInstance2 = swiperInstance2; 
   } else { 
-      if (swiperEnabled.swiperInstance) { 
-          swiperEnabled.swiperInstance.destroy(true, true); 
-          swiperEnabled.swiperInstance = null; 
+      if (swiper2Enabled.swiperInstance2) { 
+          swiper2Enabled.swiperInstance2.destroy(true, true); 
+          swiper2Enabled.swiperInstance2 = null; 
       } 
   } 
 } 
 
-window.addEventListener("resize", swiperEnabled);  
-swiperEnabled(); 
+window.addEventListener("resize", swiper2Enabled);  
+swiper2Enabled(); 

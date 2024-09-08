@@ -1,5 +1,5 @@
 export default function showAll() {
-  const showAllButton = document.querySelector('.show-all-button');
+  const showAllButton = document.querySelector('.brand-menu__show-all-button');
   const menu = document.querySelector('.brand-menu');
   console.log(menu);
 

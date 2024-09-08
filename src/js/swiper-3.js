@@ -10,7 +10,7 @@ export default function swiper3Enabled() {
           }, 
           spaceBetween: 30, 
           loop: false, 
-          autoHeight: true, 
+          height: 100, 
           width: 200, 
           centerInsufficientSlides: true, 
           breakpoints: { 

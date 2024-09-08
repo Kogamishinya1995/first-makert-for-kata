@@ -6,6 +6,7 @@ export default function swiper2Enabled() {
               el: '.swiper-pagination', 
               clickable: true, 
               dynamicBullets: true, 
+              type: 'bullets',
           }, 
           spaceBetween: 30, 
           loop: false, 

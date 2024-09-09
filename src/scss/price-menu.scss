@@ -1,68 +1,87 @@
-.price-menu {
 
+.price-menu__text--mobile {
+  color: #7E7E82;
 }
 
-.price-menu__text {
-  font-family: TT Lakes;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.20000000298023224px;
-  text-align: left;
-  font-weight: 600;
+  .price-menu__button {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
   }
   
   .price-pagination {
+    padding: 20px;
     position: relative;
     top: 30px;
     padding: 20px;
   }
-  
-  .price-menu__item img {
-    max-width: 70%;
-  }
-  
-  
+    
   .price-menu__item {
     background-color: white;
     border: 2px solid #D9FFF5;
     border-radius: 6px;
     padding: 10px;
+    height: 160px;
+    width: 220px;
+    p {
+      font-family: TT Lakes;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: left;
+      padding: 0;
+      margin: 7px 0;
+    }
   }
   
   
   @media screen and (min-width: 768px) {
     
+    .price-menu__text--mobile {
+      display: none;
+    }
+
     .price-menu {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    
-    .price-menu--hidden {
-      height: 213px;
-      overflow: hidden;
+      flex-direction: column;
+      background-color: white;
+      width: 650px;
+      margin-left: 50px;
     }
   
-    .price-menu__item {
-      height: 50px;
-      margin: 10px 5px;
-      width: 210px;
-    }
-  
+
     .price-pagination {
       display: none;
     }
-  
+    
+    .price-menu__item {
+      background-color: white;
+      border: none;
+      padding: 10px;
+      height: 50px;
+      width: 640px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      p {
+        flex-basis: calc(33.33% - 20px);
+      }
+    }
+
+
+    .price-menu__button {
+      position: static;
+    }
   }
    
   
   
-  @media screen and (min-width: 1366px) {
+  // // @media screen and (min-width: 1366px) {
     
   
-    .price-menu__item {
-      height: 50px;
-      margin: 10px 5px;
-      width: 240px;
-    }
-  }
+  // //   .price-menu__item {
+  // //     height: 50px;
+  // //     margin: 10px 5px;
+  // //     width: 240px;
+  // //   }
+  // }

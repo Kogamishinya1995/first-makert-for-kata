@@ -1,12 +1,17 @@
 
+.price-menu__button--img {
+  height: 30px;
+  width: 100px;
+}
+
 .price-menu__text--mobile {
   color: #7E7E82;
 }
 
   .price-menu__button {
-    position: relative;
-    left: 80px;
-    bottom: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
   }
   
   .price-pagination {
@@ -62,16 +67,26 @@
       width: 640px;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
-      p {
-        flex-basis: calc(33.33% - 20px);
-      }
+      justify-content: space-between;
+      align-items: center;
     }
 
 
     .price-menu__button {
       position: static;
+      flex-basis: 12.5%;
+  text-align: right;
     }
+
+    .price-menu__item p:nth-child(2) {
+      flex-basis: 50%;
+      text-align: left;
+}
+
+.price-menu__item p:not(:nth-child(2)) {
+  flex-basis: 12.5%;
+  text-align: center;
+}
   }
    
   

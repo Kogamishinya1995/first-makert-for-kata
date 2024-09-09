@@ -1,0 +1,25 @@
+.commercial-proposal {
+  padding-left: 40px;
+  p { font-family: TT Lakes;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+}
+}
+
+.commercial-proposal__button {
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 700;
+  color: black;
+  &::after {
+    content: '>';
+    margin-left: 10px;
+    color: #FF3E79;
+  }
+}

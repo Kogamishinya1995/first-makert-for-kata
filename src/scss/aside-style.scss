@@ -30,6 +30,11 @@
 
 }
 
+.aside--active {
+	left: 0px;
+	transition-duration: 0.5s;
+}
+
 .aside-menu__item {
 	list-style: none;
 }

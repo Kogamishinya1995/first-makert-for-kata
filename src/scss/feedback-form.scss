@@ -54,4 +54,8 @@
   border: none;
   position: absolute;
   right: 10px;
+  &:hover {
+    filter: hue-rotate(150deg);
+    transition-duration: 1s;
+  }
 }

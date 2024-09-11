@@ -18,3 +18,11 @@
     top: 4px;
   }
 }
+
+@media (min-width: 1600px) {
+  .services-title {
+    &::before {
+      display: none;
+  }
+}
+}

@@ -104,3 +104,9 @@
 		width: 230px;
 	}
 }
+
+@media screen and (min-width: 1600px) {
+	.brand-menu__show-all-button {
+		display: none;
+		}
+}

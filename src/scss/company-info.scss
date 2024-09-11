@@ -21,4 +21,26 @@
   .company-info__picture {
     height: 350px;
   }
+
+  .company-info__picture {
+    position: relative;
+    top: 40px;
+    img {
+    height: 250px;
+    }
+  }
+} 
+
+@media (min-width: 1600px) {
+  .company-info__picture {
+    height: 240px;
+  }
+
+  .company-info__picture {
+    position: relative;
+    top: 40px;
+    img {
+    height: 190px;
+    }
+  }
 } 

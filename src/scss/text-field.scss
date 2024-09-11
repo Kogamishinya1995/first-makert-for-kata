@@ -68,7 +68,7 @@
   }
  
   .text-field__text--hidden {
-    max-height: 145px;
+    max-height: 144px;
     overflow: hidden;
   } 
 }
@@ -76,6 +76,17 @@
 @media (min-width: 1366px) {
   .text-field__text--hidden {
     max-height: 144px;
+    overflow: hidden;
+  } 
+}
+
+@media (min-width: 1440px) {
+  .text-field__button {
+  display: none;
+  }
+
+  .text-field__text--hidden {
+    max-height: none;
     overflow: hidden;
   } 
 }

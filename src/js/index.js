@@ -7,3 +7,4 @@ import './brand-menu-button.js';
 import './repair-menu-button.js';
 import './aside-menu.js';
 import './feedback-menu.js';
+import './call-menu.js';

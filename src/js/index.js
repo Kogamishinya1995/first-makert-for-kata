@@ -6,3 +6,4 @@ import './company-info-button.js';
 import './brand-menu-button.js';
 import './repair-menu-button.js';
 import './aside-menu.js';
+import './feedback-menu.js';

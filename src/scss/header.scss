@@ -1,8 +1,12 @@
+$white-bg-color: #FFFFFF;
+$border-color: rgba(184, 255, 236, 1);
+$gray-bg-color: #F8F8F8;
+
 .header {
     align-content: center;
     align-items: center;
-    background-color: white;
-    border-bottom: 1px solid rgba(217, 255, 245, 1);
+    background-color: $white-bg-color;
+    border-bottom: 1px solid $border-color;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,7 +16,7 @@
 
 @media (min-width: 1120px) {
     .header {
-    background-color: #F8F8F8;
+    background-color: $gray-bg-color;
     border: none;
     }
 }

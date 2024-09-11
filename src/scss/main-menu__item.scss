@@ -1,5 +1,5 @@
 .main-menu__item {
-  border: 2px solid #F8F8F8;
+  border: 2px solid $gray-bg-color;
   a {
     color: rgba(126, 126, 130, 1);
   font-family: TT Lakes;
@@ -11,8 +11,8 @@
   -webkit-scrollbar { display: none; }
   }
   &:hover {
-    background-color: white;
-		border: 2px solid rgba(184, 255, 236, 1);
+    background-color: $white-bg-color;
+		border: 2px solid $border-color;
 		border-radius: 6px 6px 6px 6px;
   }
 }

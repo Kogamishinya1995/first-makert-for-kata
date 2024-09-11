@@ -2,3 +2,10 @@
   background: linear-gradient(270deg, $gray-bg-color 0%, $white-bg-color 98.61%);
   border-top: 2px solid $border-color;
 }
+
+@media (min-width: 1600px) {
+  .price-header {
+    background: linear-gradient(90deg, $gray-bg-color,$white-bg-color,$gray-bg-color);
+    border-top: none;
+  }
+}

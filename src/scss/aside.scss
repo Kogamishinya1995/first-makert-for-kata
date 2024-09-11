@@ -1,0 +1,16 @@
+.aside {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	left: -360px;
+	position: fixed;
+	width: 320px;
+	box-shadow: 5px 0 40px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  background-color: white;
+}
+
+.aside--active {
+	left: 0px;
+	transition-duration: 0.5s;
+}

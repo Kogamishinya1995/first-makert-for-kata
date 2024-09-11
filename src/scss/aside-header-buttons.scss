@@ -1,0 +1,19 @@
+
+
+.aside-header-buttons__button {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 6px 6px 6px 6px;
+	cursor: pointer;
+}
+
+.aside-header-buttons__button:hover {
+  background-color: white; 
+  filter: hue-rotate(150deg);
+  transition-duration: 1s;
+}
+
+.aside-header-buttons__logo {
+	padding-left: 10px;
+	padding-right: 10px;
+}

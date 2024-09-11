@@ -1,0 +1,19 @@
+.aside-footer-buttons__list {
+	display: flex;
+	flex-direction: row;
+	padding-left: 30px;
+	list-style: none;
+}
+
+.aside-footer-buttons__button {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 6px 6px 6px 6px;
+	cursor: pointer;
+}
+ 
+.aside-footer-buttons__button:hover {
+  background-color: white; 
+  filter: hue-rotate(150deg);
+  transition-duration: 1s;
+}

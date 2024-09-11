@@ -23,13 +23,31 @@
 @import 'price-menu.scss';
 @import 'commercial-proposal.scss';
 @import 'footer.scss';
-@import 'aside-style.scss';
 @import 'feedback.scss';
 @import 'call.scss';
+@import 'aside-header.scss';
+@import 'aside-header-buttons.scss';
+@import 'aside-menu.scss';
+@import 'aside.scss';
+@import 'aside-footer.scss';
+@import 'aside-footer-buttons.scss';
+@import 'languages-buttons.scss';
+@import 'aside-main.scss';
+@import 'address.scss';
+@import 'call-header.scss';
+@import 'call-close-button.scss';
+@import 'call-form.scss';
+@import 'call-title.scss';
+@import 'feedback-header.scss';
+@import 'feedback-close-button.scss';
+@import 'feedback-form.scss';
+@import 'feedback-title.scss';
 
 
 // $bgColor: #24292e;
 // $text: #fff;
+
+$border-color: #F8F8F8;
 
 @font-face {
   font-family: 'Comic';

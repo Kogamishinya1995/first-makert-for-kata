@@ -1,1 +1,1 @@
-https://kogamishinya1995.github.io/first-makert-for-kata/
+https://kogamishinya1995.github.io/first-makert-for-kata/dist/

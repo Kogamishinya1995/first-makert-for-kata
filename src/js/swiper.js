@@ -8,10 +8,9 @@ export default function swiperEnabled() {
               dynamicBullets: true, 
           }, 
           spaceBetween: 30, 
-          loop: false, 
-          autoHeight: true, 
-          width: 200, 
-          centerInsufficientSlides: true, 
+          loop: true,  
+          width: 200,
+          height: 50,
           breakpoints: { 
               768: { 
                   enabled: false, 

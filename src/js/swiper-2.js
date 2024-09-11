@@ -9,7 +9,7 @@ export default function swiper3Enabled() {
           type: 'bullets',
         },
         spaceBetween: 30,
-        loop: false,
+        loop: true,
         autoHeight: true,
         width: 200,
         centerInsufficientSlides: true,

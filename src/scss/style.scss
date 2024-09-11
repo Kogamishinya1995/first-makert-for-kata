@@ -1,5 +1,6 @@
 @import '~normalize.css/normalize.css';
 @import '../fonts/stylesheet-fonts.css';
+@import 'variable.scss';
 @import 'common-container.scss';
 @import 'header.scss';
 @import 'burger-button.scss';
@@ -44,10 +45,6 @@
 @import 'feedback-title.scss';
 
 
-// $bgColor: #24292e;
-// $text: #fff;
-
-$border-color: rgba(184, 255, 236, 1);
 
 @font-face {
   font-family: 'Comic';

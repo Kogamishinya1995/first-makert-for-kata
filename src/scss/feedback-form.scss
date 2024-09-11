@@ -7,7 +7,7 @@
  width: 280px;
   height: 48px;
   gap: 0px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid $divider-color;
   border-radius: 6px 6px 6px 6px;
   &::placeholder  {
     font-family: TT Lakes;
@@ -15,7 +15,7 @@
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
-    color: #B5B6BC;
+    color: $form-placeholder-color;
     padding-left: 10px;
   }
 }
@@ -23,7 +23,7 @@
 .feedback-form__textarea {
   width: 280px;
   height: 118px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid $divider-color;
   margin: 10px;
   resize: none;
   &::placeholder  {
@@ -32,7 +32,7 @@
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
-    color: #B5B6BC;
+    color: $form-placeholder-color;
     padding-left: 10px;
   }
 }
@@ -42,15 +42,15 @@
   font-size: 14px;
   line-height: 16px;
   text-align: left;
-  color: #7E7E82;
+  color: $form-text-color;
   padding-left: 12px;
   span {
-    color: #FF3E79;
+    color: $pink-form-color;
   }
 }
 
 .feedback-form__button {
-  background-color: white;
+  background-color: $white-bg-color;
   border: none;
   position: absolute;
   right: 10px;

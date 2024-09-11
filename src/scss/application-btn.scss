@@ -1,9 +1,6 @@
-$primary-bg-color: #FFFFFF;
-$second-bg-color: #F8F8F8;
-
 .application-btn {
   border: none;
-  background-color: $primary-bg-color;
+  background-color: $white-bg-color;
   position: relative;
 
   p {
@@ -12,7 +9,7 @@ $second-bg-color: #F8F8F8;
 
   &::before {
     content: ' ';
-    background: #EAEAEA;
+    background: $divider-color;
     position: absolute;
     height: 40px;
     width: 2px;
@@ -22,12 +19,12 @@ $second-bg-color: #F8F8F8;
 
   &__repair,
   &__checkstatus {
-    border: 2px solid $primary-bg-color;
-    background-color: $primary-bg-color;
+    border: 2px solid $white-bg-color;
+    background-color: $white-bg-color;
 
     &:hover {
-      background-color: $primary-bg-color;
-      border: 2px solid rgba(184, 255, 236, 1);
+      background-color: $white-bg-color;
+      border: 2px solid $border-color;
       border-radius: 6px;
     }
   }
@@ -41,7 +38,7 @@ $second-bg-color: #F8F8F8;
   @media (min-width: 1119px) {
     display: flex;
     flex-direction: row;
-    background-color: $second-bg-color;
+    background-color: $gray-bg-color;
     position: absolute;
     right: 20px;
     top: 30px;
@@ -68,13 +65,13 @@ $second-bg-color: #F8F8F8;
     &__repair,
     &__checkstatus {
       border: none;
-      background-color: $second-bg-color;
+      background-color: $gray-bg-color;
       display: flex;
       flex-direction: row;
-      border: 2px solid #F8F8F8;
+      border: 2px solid $gray-bg-color;
       &:hover {
-        background-color: $primary-bg-color;
-        border: 2px solid rgba(184, 255, 236, 1);
+        background-color: $white-bg-color;
+        border: 2px solid $border-color;
         border-radius: 6px;
       }
     }

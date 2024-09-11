@@ -1,3 +1,5 @@
+$show-all-content-color: #41F6D7;
+
 .call-title {
   font-family: TT Lakes;
   font-size: 24px;
@@ -8,7 +10,7 @@
   position: relative;
   &::before {
     content: '';
-    background-color: #41F6D7;
+    background-color: $show-all-content-color;
     width: 5px;
     height: 30px;
     position: absolute;

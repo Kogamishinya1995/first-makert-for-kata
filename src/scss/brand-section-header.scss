@@ -1,11 +1,11 @@
 .brand-section-header {
-  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  background: linear-gradient(270deg, $gray-bg-color 0%, $white-bg-color 98.61%);
   border-top: 2px solid #D9FFF5;
 }
 
 @media (min-width: 1600px) {
   .brand-section-header {
-    background: linear-gradient(90deg, #F8F8F8,#FFFFFF,#F8F8F8);
+    background: linear-gradient(90deg, $gray-bg-color,$white-bg-color,$gray-bg-color);
     border-top: none;
   }
 }

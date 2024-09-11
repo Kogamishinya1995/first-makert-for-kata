@@ -1,3 +1,5 @@
+$pink-form-color:#FF3E79;
+
 .commercial-proposal {
   padding-left: 40px;
   p { font-family: TT Lakes;
@@ -18,11 +20,11 @@ text-align: left;
   font-weight: 700;
   color: black;
   &:hover {
-    color: red;
+    color: $pink-form-color;
   }
   &::after {
     content: '>';
     margin-left: 10px;
-    color: #FF3E79;
+    color: $pink-form-color;
   }
 }

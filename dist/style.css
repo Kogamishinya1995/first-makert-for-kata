@@ -1364,6 +1364,11 @@ template {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
   border-top: 2px solid #b8ffec; }
 
+@media (min-width: 1600px) {
+  .repair-header {
+    background: linear-gradient(90deg, #F8F8F8, #FFFFFF, #F8F8F8);
+    border-top: none; } }
+
 .repair-title {
   font-family: TT Lakes;
   font-size: 16px;
@@ -1473,6 +1478,11 @@ template {
 .price-header {
   background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
   border-top: 2px solid #b8ffec; }
+
+@media (min-width: 1600px) {
+  .price-header {
+    background: linear-gradient(90deg, #F8F8F8, #FFFFFF, #F8F8F8);
+    border-top: none; } }
 
 @media (max-width: 676px) {
   .price-menu__item--title {

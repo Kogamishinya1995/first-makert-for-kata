@@ -14,3 +14,10 @@
 	left: 0px;
 	transition-duration: 0.5s;
 }
+
+@media (min-width: 1366px) {
+	.aside {
+		left: 0;
+		box-shadow: none;
+	}
+}

@@ -131,6 +131,17 @@ $form-text-color: #7E7E82;
   }
 }
 
+@media screen and (min-width: 1366px) {
+  .price-menu {
+    width: 70vw;
+  }
+
+  .price-menu__item {
+    height: 50px;
+    width: 71vw;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .price-menu {
     width: 90vw;

@@ -20,6 +20,7 @@ export default function showFeedback() {
     asideFeedback.classList.toggle('feedback--active');
     header.classList.toggle('body--opacity');
     main.classList.toggle('body--opacity');
+    body.classList.toggle('aside-open');
    } )
 
    asideFeedbackButton.addEventListener('click', () => {

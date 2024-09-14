@@ -1601,10 +1601,10 @@ template {
 
 @media screen and (min-width: 1600px) {
   .price-menu {
-    width: 90vw; }
+    width: 50vw; }
   .price-menu__item {
     height: 50px;
-    width: 60vw; } }
+    width: 50vw; } }
 
 .commercial-proposal {
   padding-left: 40px; }

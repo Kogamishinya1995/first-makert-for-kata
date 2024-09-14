@@ -3,7 +3,13 @@
 	flex-direction: column;
 }
 
-
+@media (max-width: 767px) {
+  .company-info__picture {
+    img {
+      width: 100%;
+    }
+  }  
+}
 
 @media (min-width: 767px) {
   .company-info {
